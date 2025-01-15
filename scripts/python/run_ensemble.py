@@ -68,4 +68,6 @@ else:
 
 cv = PipelineCV(pipeline, wandb_tracker, n_splits=N_SPLITS)
 scores = cv.fit(df, verbose=True)
-wandb_tracker.finish()
+
+if wandb_tracker is not None:
+    wandb_tracker.finish()
