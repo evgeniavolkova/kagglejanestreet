@@ -12,7 +12,8 @@ A detailed description can be found in [`solution.md`](solution.md) and in [Kagg
 ## Usage
 
 1. Install requirements from [`pyproject.toml`](pyproject.toml).
-2. Set paths and other config variables in [`janestreet/config.py`](janestreet/config.py).
+2. Download the dataset from [Kaggle](https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/data).
+3. Set paths and other config variables in [`janestreet/config.py`](janestreet/config.py).
 
 ### Scripts
 
